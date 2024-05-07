@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <!--Input field for display-->
+        <input type="text" id="output"> 
+
+        <!--Break tag to give space between the display and the screen-->
+        <br>
+        <br>
+
+        <!--Table for the Buttons-->
+        <table>
+            <tr>
+                <td><button onclick="display('7')">7</button></td>
+                <td><button onclick="display('8')">8</button></td>
+                <td><button onclick="display('9')">9</button></td>
+                <td><button onclick="display('/')">/</button></td>
+            </tr>
+
+             <tr>
+                <td><button onclick="display('4')">4</button></td>
+                <td><button onclick="display('5')">5</button></td>
+                <td><button onclick="display('6')">6</button></td>
+                <td><button onclick="display('*')">*</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="display('1')">1</button></td>
+                <td><button onclick="display('2')">2</button></td>
+                <td><button onclick="display('3')">3</button></td>
+                <td><button onclick="display('-')">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="display('0')">0</button></td>
+                <td><button onclick="display('.')">.</button></td>
+                <td><button onclick="display('+')">+</button></td>
+                <td><button onclick="calculate()" id="equalto">=</button></td> <!--ID given to equal to sign, so as to style it diffrently-->
+            </tr>
+            
+        </table>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

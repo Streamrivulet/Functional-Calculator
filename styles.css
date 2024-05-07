@@ -1,0 +1,41 @@
+/*Styling of the Calculator*/
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 5px solid darkslategray;
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-color: darkgray;
+    box-shadow: 5px;
+}
+
+/*Styling of the Display*/
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/*Styling of the Table*/
+table {
+    width: 100%;
+}
+
+/*Styling of the Buttons*/
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*Styling of the Equal to sign, to give diffferent background colour*/
+#equalto{
+    background-color: orange;
+}
